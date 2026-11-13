@@ -1,0 +1,292 @@
+[
+  {
+    "id": "q01",
+    "question": "Nam và nữ phải đáp ứng những điều kiện gì để được kết hôn?",
+    "expected_articles": [
+      8
+    ],
+    "retrieved": [
+      {
+        "rank": 1,
+        "chunk_id": "LuatHonNhan_30p_p6_art8",
+        "article_number": 8,
+        "distance": 0.2939294019396431
+      },
+      {
+        "rank": 2,
+        "chunk_id": "LuatHonNhan_30p_p7_art14",
+        "article_number": 14,
+        "distance": 0.37061908765501184
+      },
+      {
+        "rank": 3,
+        "chunk_id": "LuatHonNhan_30p_p2_art3",
+        "article_number": 3,
+        "distance": 0.3922848689344378
+      }
+    ],
+    "hit": true,
+    "rank_found": 1
+  },
+  {
+    "id": "q02",
+    "question": "Độ tuổi kết hôn tối thiểu của nam và nữ là bao nhiêu?",
+    "expected_articles": [
+      8
+    ],
+    "retrieved": [
+      {
+        "rank": 1,
+        "chunk_id": "LuatHonNhan_30p_p6_art8",
+        "article_number": 8,
+        "distance": 0.4078056826303901
+      },
+      {
+        "rank": 2,
+        "chunk_id": "LuatHonNhan_30p_p7_art14",
+        "article_number": 14,
+        "distance": 0.4689753852692604
+      },
+      {
+        "rank": 3,
+        "chunk_id": "LuatHonNhan_30p_p2_art3",
+        "article_number": 3,
+        "distance": 0.5179200957908747
+      }
+    ],
+    "hit": true,
+    "rank_found": 1
+  },
+  {
+    "id": "q03",
+    "question": "Luật cấm những hành vi nào trong quan hệ hôn nhân và gia đình?",
+    "expected_articles": [
+      5
+    ],
+    "retrieved": [
+      {
+        "rank": 1,
+        "chunk_id": "LuatHonNhan_30p_p2_art3",
+        "article_number": 3,
+        "distance": 0.32226086857064595
+      },
+      {
+        "rank": 2,
+        "chunk_id": "LuatHonNhan_30p_p5_art0",
+        "article_number": 0,
+        "distance": 0.3226988523753749
+      },
+      {
+        "rank": 3,
+        "chunk_id": "LuatHonNhan_30p_p5_art6",
+        "article_number": 6,
+        "distance": 0.35302734218619547
+      }
+    ],
+    "hit": false,
+    "rank_found": null
+  },
+  {
+    "id": "q04",
+    "question": "Việc kết hôn không đăng ký có giá trị pháp lý không?",
+    "expected_articles": [
+      9
+    ],
+    "retrieved": [
+      {
+        "rank": 1,
+        "chunk_id": "LuatHonNhan_30p_p6_art9",
+        "article_number": 9,
+        "distance": 0.2716829291978976
+      },
+      {
+        "rank": 2,
+        "chunk_id": "LuatHonNhan_30p_p7_art13",
+        "article_number": 13,
+        "distance": 0.32766953442352764
+      },
+      {
+        "rank": 3,
+        "chunk_id": "LuatHonNhan_30p_p17_art53",
+        "article_number": 53,
+        "distance": 0.40319212153573325
+      }
+    ],
+    "hit": true,
+    "rank_found": 1
+  },
+  {
+    "id": "q05",
+    "question": "Tài sản chung của vợ chồng bao gồm những gì?",
+    "expected_articles": [
+      33
+    ],
+    "retrieved": [
+      {
+        "rank": 1,
+        "chunk_id": "LuatHonNhan_30p_p11_art33",
+        "article_number": 33,
+        "distance": 0.268867819576441
+      },
+      {
+        "rank": 2,
+        "chunk_id": "LuatHonNhan_30p_p14_art43",
+        "article_number": 43,
+        "distance": 0.290906023781457
+      },
+      {
+        "rank": 3,
+        "chunk_id": "LuatHonNhan_30p_p18_art59",
+        "article_number": 59,
+        "distance": 0.30461800085663815
+      }
+    ],
+    "hit": true,
+    "rank_found": 1
+  },
+  {
+    "id": "q06",
+    "question": "Khi ly hôn, nếu khó khăn về chỗ ở, vợ hoặc chồng được lưu cư bao nhiêu tháng?",
+    "expected_articles": [
+      63
+    ],
+    "retrieved": [
+      {
+        "rank": 1,
+        "chunk_id": "LuatHonNhan_30p_p20_art63",
+        "article_number": 63,
+        "distance": 0.30972170617810324
+      },
+      {
+        "rank": 2,
+        "chunk_id": "LuatHonNhan_30p_p8_art20",
+        "article_number": 20,
+        "distance": 0.4149061535530688
+      },
+      {
+        "rank": 3,
+        "chunk_id": "LuatHonNhan_30p_p16_art51",
+        "article_number": 51,
+        "distance": 0.4656653776219557
+      }
+    ],
+    "hit": true,
+    "rank_found": 1
+  },
+  {
+    "id": "q07",
+    "question": "Điều kiện để Tòa án công nhận thuận tình ly hôn là gì?",
+    "expected_articles": [
+      55
+    ],
+    "retrieved": [
+      {
+        "rank": 1,
+        "chunk_id": "LuatHonNhan_30p_p17_art55",
+        "article_number": 55,
+        "distance": 0.2822765324590836
+      },
+      {
+        "rank": 2,
+        "chunk_id": "LuatHonNhan_30p_p17_art53",
+        "article_number": 53,
+        "distance": 0.35301324473185014
+      },
+      {
+        "rank": 3,
+        "chunk_id": "LuatHonNhan_30p_p17_art54",
+        "article_number": 54,
+        "distance": 0.3685830305658896
+      }
+    ],
+    "hit": true,
+    "rank_found": 1
+  },
+  {
+    "id": "q08",
+    "question": "Sau khi ly hôn, con dưới 36 tháng tuổi được giao cho ai trực tiếp nuôi?",
+    "expected_articles": [
+      81
+    ],
+    "retrieved": [
+      {
+        "rank": 1,
+        "chunk_id": "LuatHonNhan_30p_p25_art81",
+        "article_number": 81,
+        "distance": 0.32642107117163166
+      },
+      {
+        "rank": 2,
+        "chunk_id": "LuatHonNhan_30p_p26_art84",
+        "article_number": 84,
+        "distance": 0.4135408761459163
+      },
+      {
+        "rank": 3,
+        "chunk_id": "LuatHonNhan_30p_p20_art63",
+        "article_number": 63,
+        "distance": 0.4436429285965261
+      }
+    ],
+    "hit": true,
+    "rank_found": 1
+  },
+  {
+    "id": "q09",
+    "question": "Nhà nước có thừa nhận hôn nhân giữa những người cùng giới tính không?",
+    "expected_articles": [
+      8
+    ],
+    "retrieved": [
+      {
+        "rank": 1,
+        "chunk_id": "LuatHonNhan_30p_p6_art8",
+        "article_number": 8,
+        "distance": 0.35488826650338445
+      },
+      {
+        "rank": 2,
+        "chunk_id": "LuatHonNhan_30p_p17_art55",
+        "article_number": 55,
+        "distance": 0.41667575113259636
+      },
+      {
+        "rank": 3,
+        "chunk_id": "LuatHonNhan_30p_p7_art14",
+        "article_number": 14,
+        "distance": 0.42815065097017013
+      }
+    ],
+    "hit": true,
+    "rank_found": 1
+  },
+  {
+    "id": "q10",
+    "question": "Nguyên tắc giải quyết tài sản của vợ chồng khi ly hôn là gì?",
+    "expected_articles": [
+      59
+    ],
+    "retrieved": [
+      {
+        "rank": 1,
+        "chunk_id": "LuatHonNhan_30p_p18_art59",
+        "article_number": 59,
+        "distance": 0.24608400645038042
+      },
+      {
+        "rank": 2,
+        "chunk_id": "LuatHonNhan_30p_p13_art41",
+        "article_number": 41,
+        "distance": 0.2901885466120958
+      },
+      {
+        "rank": 3,
+        "chunk_id": "LuatHonNhan_30p_p19_art60",
+        "article_number": 60,
+        "distance": 0.3041736987360312
+      }
+    ],
+    "hit": true,
+    "rank_found": 1
+  }
+]

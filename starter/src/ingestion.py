@@ -1,16 +1,36 @@
-"""Read and normalize source data. TODO: implement functions."""
-from pathlib import Path
-from .models import DocumentPage
+# src/ingestion.py
+import os
+from pypdf import PdfReader
+from src.models import Document  # <--- THÊM DÒNG NÀY
 
-
-def load_pdf(path: Path, document_id: str, source: str) -> list[DocumentPage]:
-    """TODO: extract each physical page; keep its page number and source.
-
-    Detect and record pages with no text. OCR, when needed, is a separate step.
+def ingest_pdf(file_path: str) -> list[Document]:
     """
-    raise NotImplementedError("TODO: load_pdf")
+    Đọc file PDF và trả về danh sách các Document (mỗi trang là 1 Document).
+    """
+    if not os.path.exists(file_path):
+        raise FileNotFoundError(f"Không tìm thấy file: {file_path}")
 
+    reader = PdfReader(file_path)
+    doc_id = os.path.basename(file_path).replace(".pdf", "")
+    documents = []
 
-def normalize_text(text: str) -> str:
-    """TODO: normalize Unicode and whitespace without discarding useful structure."""
-    raise NotImplementedError("TODO: normalize_text")
+    for i, page in enumerate(reader.pages):
+        text = page.extract_text()
+        
+        if not text or not text.strip():
+            continue
+            
+        doc = Document(
+            doc_id=doc_id,
+            text=text.strip(),
+            source=file_path,
+            page=i + 1, 
+            metadata={
+                "category": "luat_hon_nhan_gia_dinh",
+                "year": 2014
+            }
+        )
+        documents.append(doc)
+
+    print(f"✅ Đã đọc thành công {len(documents)} trang từ {file_path}")
+    return documents

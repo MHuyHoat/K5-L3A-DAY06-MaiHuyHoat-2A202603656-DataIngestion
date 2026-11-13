@@ -1,22 +1,21 @@
-"""Shared data contracts; keep traceability from chunk back to source."""
+# src/models.py
 from dataclasses import dataclass, field
-from typing import Any
-
+from typing import Dict, Any, List, Optional
 
 @dataclass
-class DocumentPage:
-    document_id: str
+class Document:
+    """Đại diện cho một trang tài liệu được trích xuất từ file gốc."""
+    doc_id: str
+    text: str
     source: str
     page: int
-    text: str
-    metadata: dict[str, Any] = field(default_factory=dict)
-
+    metadata: Dict[str, Any] = field(default_factory=dict)
 
 @dataclass
 class Chunk:
+    """Đại diện cho một đoạn văn bản sau khi được chia nhỏ (chunking)."""
     chunk_id: str
-    document_id: str
-    source: str
-    page: int
+    doc_id: str
     text: str
-    metadata: dict[str, Any] = field(default_factory=dict)
+    metadata: Dict[str, Any] = field(default_factory=dict)
+    embedding: Optional[List[float]] = None

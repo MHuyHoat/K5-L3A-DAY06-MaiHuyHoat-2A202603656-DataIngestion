@@ -1,29 +1,33 @@
-"""Choose a real embedding provider (API or local) and implement this contract."""
-from typing import Protocol
+# src/embeddings.py
+import os
+from openai import OpenAI
+from dotenv import load_dotenv
+from typing import List
+from src.models import Chunk
 
+load_dotenv()
 
-class Embedder(Protocol):
-    model_name: str
-    dimensions: int
+# Khởi tạo client OpenAI
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
-    def embed_documents(self, texts: list[str]) -> list[list[float]]:
-        """Return one vector per input text, in the same order."""
-        ...
-
-    def embed_query(self, question: str) -> list[float]:
-        """Return a query vector compatible with the stored document vectors."""
-        ...
-
-
-class MyEmbedder:
-    """TODO: implement a provider adapter; do not silently fall back to mock vectors."""
-
-    def __init__(self, model_name: str) -> None:
-        self.model_name = model_name
-        raise NotImplementedError("TODO: initialize real embedder and dimensions")
-
-    def embed_documents(self, texts: list[str]) -> list[list[float]]:
-        raise NotImplementedError("TODO: embed_documents")
-
-    def embed_query(self, question: str) -> list[float]:
-        raise NotImplementedError("TODO: embed_query")
+def embed_chunks(chunks: List[Chunk]) -> List[Chunk]:
+    """Tạo embedding cho danh sách các chunk bằng OpenAI API."""
+    if not chunks:
+        return []
+        
+    print(f"⏳ Đang gọi API OpenAI để tạo vector cho {len(chunks)} chunks...")
+    texts = [c.text for c in chunks]
+    
+    # Gọi API (giới hạn batch size khoảng 2048 của OpenAI)
+    # Vì file của chúng ta nhỏ (30 trang) nên có thể gửi 1 lần
+    response = client.embeddings.create(
+        input=texts,
+        model="text-embedding-3-small"
+    )
+    
+    # Gán vector vào từng chunk
+    for i, data in enumerate(response.data):
+        chunks[i].embedding = data.embedding
+        
+    print("✅ Tạo vector thành công!")
+    return chunks
