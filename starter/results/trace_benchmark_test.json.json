@@ -1,0 +1,133 @@
+[
+  {
+    "id": "t01",
+    "question": "Con sinh ra trong thời kỳ hôn nhân được xác định là con của ai?",
+    "golden_answer": "Là con chung của vợ chồng. Con sinh ra trong thời hạn 300 ngày kể từ thời điểm chấm dứt hôn nhân cũng được coi là con do người vợ có thai trong thời kỳ hôn nhân.",
+    "expected_articles": [
+      88
+    ],
+    "retrieved": [
+      {
+        "rank": 1,
+        "chunk_id": "LuatHonNhan_30p_p28_art88",
+        "article_number": 88,
+        "distance": 0.39641865000032495
+      },
+      {
+        "rank": 2,
+        "chunk_id": "LuatHonNhan_30p_p28_art89",
+        "article_number": 89,
+        "distance": 0.45995710027581227
+      },
+      {
+        "rank": 3,
+        "chunk_id": "LuatHonNhan_30p_p29_art93",
+        "article_number": 93,
+        "distance": 0.4670782401356913
+      }
+    ],
+    "generated_answer": "Con sinh ra trong thời kỳ hôn nhân được xác định là con chung của vợ chồng (Điều 88, khoản 1).",
+    "hit": true,
+    "rank_found": 1
+  },
+  {
+    "id": "t02",
+    "question": "Muốn nhờ người khác mang thai hộ cần đáp ứng điều kiện gì?",
+    "golden_answer": "Phải tự nguyện, lập thành văn bản. Vợ chồng nhờ mang thai hộ phải có xác nhận của tổ chức y tế về việc không thể mang thai, đang không có con chung, đã được tư vấn. Người mang thai hộ phải là người thân thích cùng hàng, đã từng sinh con, ở độ tuổi phù hợp...",
+    "expected_articles": [
+      95
+    ],
+    "retrieved": [
+      {
+        "rank": 1,
+        "chunk_id": "LuatHonNhan_30p_p29_art95",
+        "article_number": 95,
+        "distance": 0.47444125985253116
+      },
+      {
+        "rank": 2,
+        "chunk_id": "LuatHonNhan_30p_p30_art96",
+        "article_number": 96,
+        "distance": 0.4794051435552664
+      },
+      {
+        "rank": 3,
+        "chunk_id": "LuatHonNhan_30p_p30_art97",
+        "article_number": 97,
+        "distance": 0.4932055751948652
+      }
+    ],
+    "generated_answer": "Để nhờ người khác mang thai hộ, vợ chồng cần đáp ứng các điều kiện sau (Điều 95):\n\n1. Có xác nhận của tổ chức y tế có thẩm quyền về việc người vợ không thể mang thai và sinh con ngay cả khi áp dụng kỹ thuật hỗ trợ sinh sản.\n2. Vợ chồng đang không có con chung.\n3. Đã được tư vấn về y tế, pháp lý, tâm lý.",
+    "hit": true,
+    "rank_found": 1
+  },
+  {
+    "id": "t03",
+    "question": "Cha mẹ không trực tiếp nuôi con có nghĩa vụ cấp dưỡng như thế nào?",
+    "golden_answer": "Có nghĩa vụ cấp dưỡng cho con. Đồng thời có quyền, nghĩa vụ thăm nom con mà không ai được cản trở.",
+    "expected_articles": [
+      82
+    ],
+    "retrieved": [
+      {
+        "rank": 1,
+        "chunk_id": "LuatHonNhan_30p_p22_art71",
+        "article_number": 71,
+        "distance": 0.2933456047259908
+      },
+      {
+        "rank": 2,
+        "chunk_id": "LuatHonNhan_30p_p23_art0",
+        "article_number": 0,
+        "distance": 0.32922603302613196
+      },
+      {
+        "rank": 3,
+        "chunk_id": "LuatHonNhan_30p_p25_art82",
+        "article_number": 82,
+        "distance": 0.33240856357094273
+      }
+    ],
+    "generated_answer": "Cha, mẹ không trực tiếp nuôi con có nghĩa vụ cấp dưỡng cho con theo Điều 82, khoản 2.",
+    "hit": true,
+    "rank_found": 3
+  },
+  {
+    "id": "t04",
+    "question": "Theo Điều 63, thời hạn lưu cư khi ly hôn là bao lâu?",
+    "golden_answer": "Thời hạn lưu cư là 06 tháng kể từ ngày quan hệ hôn nhân chấm dứt.",
+    "expected_articles": [
+      63
+    ],
+    "retrieved": [
+      {
+        "rank": 1,
+        "chunk_id": "LuatHonNhan_30p_p20_art63",
+        "article_number": 63,
+        "distance": 0.2950655146457021
+      }
+    ],
+    "generated_answer": "Thời hạn lưu cư khi ly hôn là 06 tháng kể từ ngày quan hệ hôn nhân chấm dứt (Điều 63).",
+    "hit": true,
+    "rank_found": 1
+  },
+  {
+    "id": "t05",
+    "question": "Điều 81 quy định việc trông nom con sau khi ly hôn như thế nào?",
+    "golden_answer": "Cha mẹ vẫn có quyền, nghĩa vụ trông nom, chăm sóc, nuôi dưỡng, giáo dục con chưa thành niên. Vợ chồng thỏa thuận về người trực tiếp nuôi con, nếu không thỏa thuận được thì Tòa án quyết định. Con dưới 36 tháng tuổi giao cho mẹ trực tiếp nuôi.",
+    "expected_articles": [
+      81
+    ],
+    "retrieved": [
+      {
+        "rank": 1,
+        "chunk_id": "LuatHonNhan_30p_p25_art81",
+        "article_number": 81,
+        "distance": 0.2945982349275461
+      }
+    ],
+    "generated_answer": "Điều 81 quy định rằng sau khi ly hôn, cha mẹ vẫn có quyền và nghĩa vụ trông nom, chăm sóc, nuôi dưỡng, giáo dục con chưa thành niên hoặc con đã thành niên mất năng lực hành vi dân sự. Vợ chồng có thể thỏa thuận về người trực tiếp nuôi con và nghĩa vụ, quyền của mỗi bên; nếu không thỏa thuận được, Tòa án sẽ quyết định dựa vào quyền lợi của con. Con dưới 36 tháng tuổi thường được giao cho mẹ nuôi, trừ khi mẹ không đủ điều kiện hoặc có thỏa thuận khác.",
+    "hit": true,
+    "rank_found": 1
+  }
+]
