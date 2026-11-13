@@ -1,292 +1,443 @@
 [
   {
-    "id": "q01",
+    "id": "d01",
     "question": "Nam và nữ phải đáp ứng những điều kiện gì để được kết hôn?",
+    "golden_answer": "Nam từ đủ 20 tuổi, nữ từ đủ 18 tuổi; kết hôn tự nguyện; không mất năng lực hành vi dân sự; không thuộc trường hợp cấm kết hôn.",
     "expected_articles": [
       8
     ],
     "retrieved": [
       {
         "rank": 1,
-        "chunk_id": "LuatHonNhan_30p_p6_art8",
+        "chunk_id": "LuatHonNhan_30p_p6_fixed_0",
         "article_number": 8,
-        "distance": 0.2939294019396431
+        "distance": 0.3366203051978067
       },
       {
         "rank": 2,
-        "chunk_id": "LuatHonNhan_30p_p7_art14",
-        "article_number": 14,
-        "distance": 0.37061908765501184
+        "chunk_id": "LuatHonNhan_30p_p2_fixed_3",
+        "article_number": 0,
+        "distance": 0.3507223159611509
       },
       {
         "rank": 3,
-        "chunk_id": "LuatHonNhan_30p_p2_art3",
-        "article_number": 3,
-        "distance": 0.3922848689344378
+        "chunk_id": "LuatHonNhan_30p_p2_fixed_5",
+        "article_number": 0,
+        "distance": 0.3813808203981287
       }
     ],
+    "generated_answer": "Nam và nữ phải đáp ứng các điều kiện sau để được kết hôn theo Điều 8:\n\n1. Nam từ đủ 20 tuổi trở lên, nữ từ đủ 18 tuổi trở lên.\n2. Việc kết hôn do nam và nữ tự nguyện quyết định.\n3. Không bị mất năng lực hành vi dân sự.\n4. Việc kết hôn không thuộc một trong các trường hợp cấm kết hôn theo quy định tại các điểm a, b, c và d khoản 2 Điều 5 của Luật này.",
     "hit": true,
     "rank_found": 1
   },
   {
-    "id": "q02",
+    "id": "d02",
     "question": "Độ tuổi kết hôn tối thiểu của nam và nữ là bao nhiêu?",
+    "golden_answer": "Nam từ đủ 20 tuổi trở lên, nữ từ đủ 18 tuổi trở lên.",
     "expected_articles": [
       8
     ],
     "retrieved": [
       {
         "rank": 1,
-        "chunk_id": "LuatHonNhan_30p_p6_art8",
-        "article_number": 8,
-        "distance": 0.4078056826303901
+        "chunk_id": "LuatHonNhan_30p_p2_fixed_3",
+        "article_number": 0,
+        "distance": 0.4316291208730224
       },
       {
         "rank": 2,
-        "chunk_id": "LuatHonNhan_30p_p7_art14",
-        "article_number": 14,
-        "distance": 0.4689753852692604
+        "chunk_id": "LuatHonNhan_30p_p6_fixed_0",
+        "article_number": 8,
+        "distance": 0.4366742494908974
       },
       {
         "rank": 3,
-        "chunk_id": "LuatHonNhan_30p_p2_art3",
-        "article_number": 3,
-        "distance": 0.5179200957908747
+        "chunk_id": "LuatHonNhan_30p_p7_fixed_4",
+        "article_number": 0,
+        "distance": 0.46465517554282854
       }
     ],
+    "generated_answer": "Độ tuổi kết hôn tối thiểu của nam là 20 tuổi và nữ là 18 tuổi (Điều 8, khoản 1, điểm a).",
     "hit": true,
-    "rank_found": 1
+    "rank_found": 2
   },
   {
-    "id": "q03",
+    "id": "d03",
     "question": "Luật cấm những hành vi nào trong quan hệ hôn nhân và gia đình?",
+    "golden_answer": "Cấm kết hôn giả tạo, ly hôn giả tạo; tảo hôn, cưỡng ép kết hôn; người đang có vợ/chồng mà kết hôn với người khác; kết hôn giữa người cùng dòng máu trực hệ, có họ trong phạm vi ba đời; bạo lực gia đình...",
     "expected_articles": [
       5
     ],
     "retrieved": [
       {
         "rank": 1,
-        "chunk_id": "LuatHonNhan_30p_p2_art3",
-        "article_number": 3,
-        "distance": 0.32226086857064595
+        "chunk_id": "LuatHonNhan_30p_p2_fixed_2",
+        "article_number": 0,
+        "distance": 0.3470530653123315
       },
       {
         "rank": 2,
-        "chunk_id": "LuatHonNhan_30p_p5_art0",
+        "chunk_id": "LuatHonNhan_30p_p1_fixed_2",
         "article_number": 0,
-        "distance": 0.3226988523753749
+        "distance": 0.3534061677633318
       },
       {
         "rank": 3,
-        "chunk_id": "LuatHonNhan_30p_p5_art6",
-        "article_number": 6,
-        "distance": 0.35302734218619547
+        "chunk_id": "LuatHonNhan_30p_p2_fixed_0",
+        "article_number": 3,
+        "distance": 0.35679672092077896
       }
     ],
+    "generated_answer": "Không tìm thấy thông tin.",
     "hit": false,
     "rank_found": null
   },
   {
-    "id": "q04",
+    "id": "d04",
     "question": "Việc kết hôn không đăng ký có giá trị pháp lý không?",
+    "golden_answer": "Không có giá trị pháp lý.",
     "expected_articles": [
       9
     ],
     "retrieved": [
       {
         "rank": 1,
-        "chunk_id": "LuatHonNhan_30p_p6_art9",
+        "chunk_id": "LuatHonNhan_30p_p6_fixed_1",
         "article_number": 9,
-        "distance": 0.2716829291978976
+        "distance": 0.3298472235041001
       },
       {
         "rank": 2,
-        "chunk_id": "LuatHonNhan_30p_p7_art13",
-        "article_number": 13,
-        "distance": 0.32766953442352764
+        "chunk_id": "LuatHonNhan_30p_p7_fixed_5",
+        "article_number": 0,
+        "distance": 0.3688442240420753
       },
       {
         "rank": 3,
-        "chunk_id": "LuatHonNhan_30p_p17_art53",
-        "article_number": 53,
-        "distance": 0.40319212153573325
+        "chunk_id": "LuatHonNhan_30p_p2_fixed_3",
+        "article_number": 0,
+        "distance": 0.3749350378550046
       }
     ],
+    "generated_answer": "Việc kết hôn không đăng ký không có giá trị pháp lý. (Điều 9, khoản 1)",
     "hit": true,
     "rank_found": 1
   },
   {
-    "id": "q05",
+    "id": "d05",
     "question": "Tài sản chung của vợ chồng bao gồm những gì?",
+    "golden_answer": "Tài sản do vợ, chồng tạo ra, thu nhập do lao động, hoạt động sản xuất kinh doanh, hoa lợi, lợi tức phát sinh từ tài sản riêng và thu nhập hợp pháp khác trong thời kỳ hôn nhân; tài sản được thừa kế chung hoặc tặng cho chung; quyền sử dụng đất có được sau khi kết hôn.",
     "expected_articles": [
       33
     ],
     "retrieved": [
       {
         "rank": 1,
-        "chunk_id": "LuatHonNhan_30p_p11_art33",
+        "chunk_id": "LuatHonNhan_30p_p11_fixed_3",
         "article_number": 33,
-        "distance": 0.268867819576441
+        "distance": 0.2785685206533798
       },
       {
         "rank": 2,
-        "chunk_id": "LuatHonNhan_30p_p14_art43",
-        "article_number": 43,
-        "distance": 0.290906023781457
+        "chunk_id": "LuatHonNhan_30p_p18_fixed_2",
+        "article_number": 0,
+        "distance": 0.28592825634215535
       },
       {
         "rank": 3,
-        "chunk_id": "LuatHonNhan_30p_p18_art59",
-        "article_number": 59,
-        "distance": 0.30461800085663815
+        "chunk_id": "LuatHonNhan_30p_p12_fixed_3",
+        "article_number": 0,
+        "distance": 0.2873677260095878
       }
     ],
+    "generated_answer": "Tài sản chung của vợ chồng bao gồm tài sản do vợ, chồng tạo ra, thu nhập do lao động, hoạt động sản xuất, kinh doanh, hoa lợi, lợi tức phát sinh từ tài sản chung và tài sản riêng của vợ, chồng theo thỏa thuận (Điều 33).",
     "hit": true,
     "rank_found": 1
   },
   {
-    "id": "q06",
+    "id": "d06",
     "question": "Khi ly hôn, nếu khó khăn về chỗ ở, vợ hoặc chồng được lưu cư bao nhiêu tháng?",
+    "golden_answer": "Được quyền lưu cư trong thời hạn 06 tháng kể từ ngày quan hệ hôn nhân chấm dứt.",
     "expected_articles": [
       63
     ],
     "retrieved": [
       {
         "rank": 1,
-        "chunk_id": "LuatHonNhan_30p_p20_art63",
-        "article_number": 63,
-        "distance": 0.30972170617810324
+        "chunk_id": "LuatHonNhan_30p_p20_fixed_1",
+        "article_number": 64,
+        "distance": 0.3955510246883571
       },
       {
         "rank": 2,
-        "chunk_id": "LuatHonNhan_30p_p8_art20",
-        "article_number": 20,
-        "distance": 0.4149061535530688
+        "chunk_id": "LuatHonNhan_30p_p7_fixed_5",
+        "article_number": 0,
+        "distance": 0.42413877046583104
       },
       {
         "rank": 3,
-        "chunk_id": "LuatHonNhan_30p_p16_art51",
-        "article_number": 51,
-        "distance": 0.4656653776219557
+        "chunk_id": "LuatHonNhan_30p_p17_fixed_3",
+        "article_number": 0,
+        "distance": 0.4283698498775349
       }
     ],
-    "hit": true,
-    "rank_found": 1
+    "generated_answer": "Vợ hoặc chồng được quyền lưu cư trong thời hạn 06 tháng kể từ ngày quan hệ hôn nhân chấm dứt nếu có khó khăn về chỗ ở (Điều không rõ số).",
+    "hit": false,
+    "rank_found": null
   },
   {
-    "id": "q07",
+    "id": "d07",
     "question": "Điều kiện để Tòa án công nhận thuận tình ly hôn là gì?",
+    "golden_answer": "Hai bên thật sự tự nguyện ly hôn và đã thỏa thuận về việc chia tài sản, việc trông nom, nuôi dưỡng, chăm sóc, giáo dục con trên cơ sở bảo đảm quyền lợi chính đáng của vợ và con.",
     "expected_articles": [
       55
     ],
     "retrieved": [
       {
         "rank": 1,
-        "chunk_id": "LuatHonNhan_30p_p17_art55",
-        "article_number": 55,
-        "distance": 0.2822765324590836
+        "chunk_id": "LuatHonNhan_30p_p17_fixed_2",
+        "article_number": 56,
+        "distance": 0.3344363942034433
       },
       {
         "rank": 2,
-        "chunk_id": "LuatHonNhan_30p_p17_art53",
-        "article_number": 53,
-        "distance": 0.35301324473185014
+        "chunk_id": "LuatHonNhan_30p_p17_fixed_0",
+        "article_number": 52,
+        "distance": 0.348906588908653
       },
       {
         "rank": 3,
-        "chunk_id": "LuatHonNhan_30p_p17_art54",
-        "article_number": 54,
-        "distance": 0.3685830305658896
+        "chunk_id": "LuatHonNhan_30p_p6_fixed_2",
+        "article_number": 0,
+        "distance": 0.3532374462932729
       }
     ],
-    "hit": true,
-    "rank_found": 1
+    "generated_answer": "Điều kiện để Tòa án công nhận thuận tình ly hôn là việc chia tài sản, việc trông nom, nuôi dưỡng, chăm sóc, giáo dục con phải bảo đảm quyền lợi chính đáng của vợ và con. (Điều 56)",
+    "hit": false,
+    "rank_found": null
   },
   {
-    "id": "q08",
+    "id": "d08",
     "question": "Sau khi ly hôn, con dưới 36 tháng tuổi được giao cho ai trực tiếp nuôi?",
+    "golden_answer": "Được giao cho mẹ trực tiếp nuôi, trừ trường hợp người mẹ không đủ điều kiện hoặc cha mẹ có thỏa thuận khác phù hợp với lợi ích của con.",
     "expected_articles": [
       81
     ],
     "retrieved": [
       {
         "rank": 1,
-        "chunk_id": "LuatHonNhan_30p_p25_art81",
-        "article_number": 81,
-        "distance": 0.32642107117163166
+        "chunk_id": "LuatHonNhan_30p_p25_fixed_4",
+        "article_number": 82,
+        "distance": 0.34775062487758945
       },
       {
         "rank": 2,
-        "chunk_id": "LuatHonNhan_30p_p26_art84",
-        "article_number": 84,
-        "distance": 0.4135408761459163
+        "chunk_id": "LuatHonNhan_30p_p16_fixed_4",
+        "article_number": 0,
+        "distance": 0.3698637962589366
       },
       {
         "rank": 3,
-        "chunk_id": "LuatHonNhan_30p_p20_art63",
-        "article_number": 63,
-        "distance": 0.4436429285965261
+        "chunk_id": "LuatHonNhan_30p_p25_fixed_2",
+        "article_number": 81,
+        "distance": 0.39620330473454424
       }
     ],
+    "generated_answer": "Con dưới 36 tháng tuổi được giao cho mẹ trực tiếp nuôi, trừ trường hợp người mẹ không đủ điều kiện để trực tiếp trông nom, chăm sóc, nuôi dưỡng, giáo dục con hoặc cha mẹ có thỏa thuận khác phù hợp với lợi ích của con (Điều 81).",
     "hit": true,
-    "rank_found": 1
+    "rank_found": 3
   },
   {
-    "id": "q09",
+    "id": "d09",
     "question": "Nhà nước có thừa nhận hôn nhân giữa những người cùng giới tính không?",
+    "golden_answer": "Nhà nước không thừa nhận hôn nhân giữa những người cùng giới tính.",
     "expected_articles": [
       8
     ],
     "retrieved": [
       {
         "rank": 1,
-        "chunk_id": "LuatHonNhan_30p_p6_art8",
+        "chunk_id": "LuatHonNhan_30p_p6_fixed_0",
         "article_number": 8,
-        "distance": 0.35488826650338445
+        "distance": 0.38259731271031927
       },
       {
         "rank": 2,
-        "chunk_id": "LuatHonNhan_30p_p17_art55",
-        "article_number": 55,
-        "distance": 0.41667575113259636
+        "chunk_id": "LuatHonNhan_30p_p6_fixed_1",
+        "article_number": 9,
+        "distance": 0.3945787695083489
       },
       {
         "rank": 3,
-        "chunk_id": "LuatHonNhan_30p_p7_art14",
-        "article_number": 14,
-        "distance": 0.42815065097017013
+        "chunk_id": "LuatHonNhan_30p_p7_fixed_3",
+        "article_number": 13,
+        "distance": 0.41030873066897056
       }
     ],
+    "generated_answer": "Nhà nước không thừa nhận hôn nhân giữa những người cùng giới tính (Điều 8, khoản 2).",
     "hit": true,
     "rank_found": 1
   },
   {
-    "id": "q10",
+    "id": "d10",
     "question": "Nguyên tắc giải quyết tài sản của vợ chồng khi ly hôn là gì?",
+    "golden_answer": "Tài sản chung được chia đôi nhưng có tính đến hoàn cảnh gia đình, công sức đóng góp, bảo vệ lợi ích chính đáng trong sản xuất kinh doanh và lỗi của mỗi bên. Tài sản riêng thuộc quyền sở hữu của người đó.",
     "expected_articles": [
       59
     ],
     "retrieved": [
       {
         "rank": 1,
-        "chunk_id": "LuatHonNhan_30p_p18_art59",
-        "article_number": 59,
-        "distance": 0.24608400645038042
+        "chunk_id": "LuatHonNhan_30p_p18_fixed_2",
+        "article_number": 0,
+        "distance": 0.21424379792616055
       },
       {
         "rank": 2,
-        "chunk_id": "LuatHonNhan_30p_p13_art41",
-        "article_number": 41,
-        "distance": 0.2901885466120958
+        "chunk_id": "LuatHonNhan_30p_p18_fixed_1",
+        "article_number": 59,
+        "distance": 0.22647849321681757
       },
       {
         "rank": 3,
-        "chunk_id": "LuatHonNhan_30p_p19_art60",
-        "article_number": 60,
-        "distance": 0.3041736987360312
+        "chunk_id": "LuatHonNhan_30p_p10_fixed_4",
+        "article_number": 29,
+        "distance": 0.27017107683486963
       }
     ],
+    "generated_answer": "Nguyên tắc giải quyết tài sản của vợ chồng khi ly hôn là các bên có thể thỏa thuận về việc giải quyết tài sản. Nếu không thỏa thuận được, Tòa án sẽ giải quyết theo quy định tại các khoản 2, 3, 4 và 5 Điều 59 và các điều 60, 61, 62, 63 và 64 của Luật này (Điều 59).",
+    "hit": true,
+    "rank_found": 2
+  },
+  {
+    "id": "d11",
+    "question": "Những tài sản nào được coi là tài sản riêng của vợ, chồng?",
+    "golden_answer": "Tài sản có trước khi kết hôn; tài sản được thừa kế riêng, được tặng cho riêng trong thời kỳ hôn nhân; tài sản được chia riêng; tài sản phục vụ nhu cầu thiết yếu và tài sản khác theo quy định.",
+    "expected_articles": [
+      43
+    ],
+    "retrieved": [
+      {
+        "rank": 1,
+        "chunk_id": "LuatHonNhan_30p_p11_fixed_5",
+        "article_number": 0,
+        "distance": 0.26342343159736215
+      },
+      {
+        "rank": 2,
+        "chunk_id": "LuatHonNhan_30p_p14_fixed_3",
+        "article_number": 43,
+        "distance": 0.27574358071472826
+      },
+      {
+        "rank": 3,
+        "chunk_id": "LuatHonNhan_30p_p14_fixed_4",
+        "article_number": 44,
+        "distance": 0.29265378022207367
+      }
+    ],
+    "generated_answer": "Tài sản riêng của vợ, chồng gồm:\n\n1. Tài sản mà mỗi người có trước khi kết hôn.\n2. Tài sản được thừa kế riêng, được tặng cho riêng trong thời kỳ hôn nhân.\n3. Tài sản được chia riêng cho vợ, chồng theo quy định tại các điều 38, 39 và 40 của Luật này.\n4. Tài sản phục vụ nhu cầu thiết yếu của vợ, chồng.\n5. Tài sản khác mà theo quy định của pháp luật thuộc sở hữu riêng của vợ, chồng.\n\n(Căn cứ Điều 43)",
+    "hit": true,
+    "rank_found": 2
+  },
+  {
+    "id": "d12",
+    "question": "Khi ly hôn, có bắt buộc phải cấp dưỡng cho vợ/chồng cũ không?",
+    "golden_answer": "Không bắt buộc. Chỉ khi bên khó khăn, túng thiếu có yêu cầu cấp dưỡng mà có lý do chính đáng thì bên kia có nghĩa vụ cấp dưỡng theo khả năng của mình.",
+    "expected_articles": [
+      115
+    ],
+    "retrieved": [
+      {
+        "rank": 1,
+        "chunk_id": "LuatHonNhan_30p_p16_fixed_3",
+        "article_number": 0,
+        "distance": 0.4008183009553892
+      },
+      {
+        "rank": 2,
+        "chunk_id": "LuatHonNhan_30p_p20_fixed_1",
+        "article_number": 64,
+        "distance": 0.41035648026180804
+      },
+      {
+        "rank": 3,
+        "chunk_id": "LuatHonNhan_30p_p2_fixed_5",
+        "article_number": 0,
+        "distance": 0.4144149161313274
+      }
+    ],
+    "generated_answer": "Không tìm thấy thông tin.",
+    "hit": false,
+    "rank_found": null
+  },
+  {
+    "id": "d13",
+    "question": "Theo Điều 8, nam nữ kết hôn cần những điều kiện gì?",
+    "golden_answer": "Nam từ đủ 20 tuổi, nữ từ đủ 18 tuổi; tự nguyện; không mất năng lực hành vi dân sự; không thuộc trường hợp cấm kết hôn.",
+    "expected_articles": [
+      8
+    ],
+    "retrieved": [
+      {
+        "rank": 1,
+        "chunk_id": "LuatHonNhan_30p_p6_fixed_0",
+        "article_number": 8,
+        "distance": 0.3470584271608682
+      }
+    ],
+    "generated_answer": "Theo Điều 8, nam nữ kết hôn cần tuân theo các điều kiện sau: \n1. Nam từ đủ 20 tuổi trở lên, nữ từ đủ 18 tuổi trở lên; \n2. Việc kết hôn do nam và nữ tự nguyện quyết định; \n3. Không bị mất năng lực hành vi dân sự; \n4. Việc kết hôn không thuộc một trong các trường hợp cấm kết hôn theo quy định tại các điểm a, b, c và d khoản 2 Điều 5.",
     "hit": true,
     "rank_found": 1
+  },
+  {
+    "id": "d14",
+    "question": "Điều 33 quy định tài sản chung của vợ chồng gồm những gì?",
+    "golden_answer": "Tài sản do vợ, chồng tạo ra, thu nhập do lao động, hoạt động sản xuất kinh doanh, hoa lợi, lợi tức và thu nhập hợp pháp khác trong thời kỳ hôn nhân; tài sản thừa kế chung, tặng cho chung; quyền sử dụng đất có được sau kết hôn.",
+    "expected_articles": [
+      33
+    ],
+    "retrieved": [
+      {
+        "rank": 1,
+        "chunk_id": "LuatHonNhan_30p_p11_fixed_3",
+        "article_number": 33,
+        "distance": 0.2723725409699841
+      }
+    ],
+    "generated_answer": "Tài sản chung của vợ chồng gồm tài sản do vợ, chồng tạo ra, thu nhập do lao động, hoạt động sản xuất, kinh doanh (Điều 33).",
+    "hit": true,
+    "rank_found": 1
+  },
+  {
+    "id": "d15",
+    "question": "Có phải mẹ luôn được quyền nuôi con dưới 36 tháng tuổi trong mọi trường hợp?",
+    "golden_answer": "Không phải luôn luôn. Con dưới 36 tháng tuổi giao cho mẹ trực tiếp nuôi, trừ trường hợp mẹ không đủ điều kiện hoặc cha mẹ có thỏa thuận khác phù hợp với lợi ích của con.",
+    "expected_articles": [
+      81
+    ],
+    "retrieved": [
+      {
+        "rank": 1,
+        "chunk_id": "LuatHonNhan_30p_p25_fixed_4",
+        "article_number": 82,
+        "distance": 0.31172125820674135
+      },
+      {
+        "rank": 2,
+        "chunk_id": "LuatHonNhan_30p_p26_fixed_3",
+        "article_number": 85,
+        "distance": 0.3334771196485061
+      },
+      {
+        "rank": 3,
+        "chunk_id": "LuatHonNhan_30p_p27_fixed_1",
+        "article_number": 86,
+        "distance": 0.36445147821421775
+      }
+    ],
+    "generated_answer": "Không, mẹ không luôn được quyền nuôi con dưới 36 tháng tuổi trong mọi trường hợp. Theo quy định, con dưới 36 tháng tuổi được giao cho mẹ trực tiếp nuôi, trừ trường hợp người mẹ không đủ điều kiện để trực tiếp trông nom, chăm sóc, nuôi dưỡng, giáo dục con hoặc cha mẹ có thỏa thuận khác phù hợp với lợi ích của con (Điều 82).",
+    "hit": false,
+    "rank_found": null
   }
 ]
